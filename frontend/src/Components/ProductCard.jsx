@@ -15,7 +15,10 @@ export default function ProductCard({
   handleDeleteProduct,
 }) {
   return (
-    <div className="ProductCard">
+    <div style={{
+      color: "white",
+    }}
+    className="ProductCard">
       <h3>{productName}</h3>
       <img src={image} alt="" />
       <h4>{brand}</h4>

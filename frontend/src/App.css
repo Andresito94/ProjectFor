@@ -159,3 +159,12 @@ img {
 #edit-button {
   background-color: rgb(76, 43, 226);
 }
+
+.HomePage {
+  text-align: center;
+  text-decoration-color: white;
+}
+
+.HomePage:link {
+  color: white;
+}

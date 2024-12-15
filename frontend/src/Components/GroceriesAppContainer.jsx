@@ -193,7 +193,13 @@ export default function GroceriesAppContainer() {
   };
   /////////Renderer
   return (
-    <div>
+    <div style={{
+      border: "4px solid white",
+      borderRadius: "10px",
+      padding: "20px",
+      display: "inline-block",
+      color: "white",
+    }}>
       <NavBar quantity={cartList.length} />
       <div className="GroceriesApp-Container">
         <ProductForm

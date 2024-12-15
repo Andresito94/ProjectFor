@@ -52,7 +52,13 @@ export default function LoginPage() {
     };
   // Render
     return (
-    <div>
+    <div style={{
+      border: "4px solid white",
+      borderRadius: "10px",
+      padding: "20px",
+      display: "inline-block",
+      color: "white",
+    }}>
       <h1>Login Page</h1>
       <UserForm
         postResponse={postResponse}

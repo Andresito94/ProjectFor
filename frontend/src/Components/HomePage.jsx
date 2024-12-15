@@ -4,8 +4,16 @@ export default function HomePage() {
   const location = useLocation();
   console.log(location);
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div 
+    style={{
+      border: "4px solid white",
+      borderRadius: "10px",
+      padding: "20px",
+      display: "inline-block",
+      color: "white",
+    }}
+    >
+      <h1>Welcome To Group 4's Final Project!</h1>
       <Link to="/login">Login</Link>
       <br />
       <Link to="/create-user">Create User</Link>
